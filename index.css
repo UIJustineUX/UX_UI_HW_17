@@ -1,37 +1,57 @@
-/* Navigation styles */
-.logo {
-  background: white;
-  height: 230px;
-  background-image: url("../images/jakes-logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.nav {
-  display: flex;
-  background-color: black;
-  padding: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.carousel {
-  position:relative;
-  height: 600px
-  width: 80%
-  margin: 0 auto;
-}
-
-.carousel__track-container {
-  background: rgb(190, 162, 162);
-  padding: 10px;
-}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  nav {
+    padding: 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ccc;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
